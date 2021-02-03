@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import ThreeCustomeGeo from './components/ThreeCustomeGeo';
+// import ThreePlanet from './components/ThreePlanet';
+// import ThreeTorus from './components/ThreeTorus';
+// import ThreeScene from './components/ThreeScene';
+// import ThreeScene2 from './components/ThreeSceneRound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ThreeScene /> */}
+      {/* <ThreeScene2 /> */}
+      {/* <ThreeTorus /> */}
+      {/* <ThreePlanet /> */}
+      <ThreeCustomeGeo />
     </div>
   );
 }
